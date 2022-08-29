@@ -1,4 +1,5 @@
 import socket
+import os
 from os import getenv
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
